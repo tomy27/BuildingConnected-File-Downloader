@@ -1,0 +1,4 @@
+requests
+keyring
+fastapi
+uvicorn

@@ -1,0 +1,44 @@
+2025-06-09 16:18:16,448 - INFO - Successfully initialized. Starting to search for new projects...
+2025-06-09 16:18:16,454 - INFO - 2 new projects found: ['College Square Apartments', 'Meteme Barrel Winery-']
+2025-06-09 16:18:16,455 - INFO - Exchanging refresh token for access token...
+2025-06-09 16:18:31,949 - ERROR - ERROR: Could not create project folder
+Traceback (most recent call last):
+  File "main.py", line 263, in create_project_folder
+    raise Exception(f"Project folder already exists: {new_path}")
+Exception: Project folder already exists: C:\Users\tamas\projects\BuildingConnected\25095 - Meteme Barrel Winery
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 343, in <module>
+    new_project_dir = create_project_folder(full_project_name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "main.py", line 268, in create_project_folder
+    raise Exception("Could not create project folder") from e
+Exception: Could not create project folder
+2025-06-09 16:26:25,418 - INFO - Successfully initialized. Starting to search for new projects...
+2025-06-09 16:26:25,423 - INFO - 2 new projects found: ['Meteme Barrel Winery-', 'Pleasant Valley ES Inc. 2']
+2025-06-09 16:26:25,423 - INFO - Exchanging refresh token for access token...
+2025-06-09 16:26:34,513 - INFO - New project created: Meteme Barrel Winery -> 25095 - Meteme Barrel Winery.
+2025-06-09 16:26:34,904 - INFO - New project created: Pleasant Valley ES Inc. 2 -> 25101 - Pleasant Valley ES Inc. 2.
+2025-06-09 16:26:34,905 - INFO - Script finished successfully.
+2025-06-09 16:28:03,449 - INFO - Successfully initialized. Starting to search for new projects...
+2025-06-09 16:28:03,456 - INFO - 1 new projects found: ['College Square Apartments']
+2025-06-09 16:28:03,456 - INFO - Exchanging refresh token for access token...
+2025-06-09 16:31:13,911 - INFO - New project created: College Square Apartments -> 25102 - College Square Apartments.
+2025-06-09 16:31:13,912 - INFO - Script finished successfully.
+2025-06-09 16:37:49,208 - INFO - Successfully initialized. Starting to search for new projects...
+2025-06-09 16:37:49,211 - INFO - 1 new projects found: ['Meteme Barrel Winery-']
+2025-06-09 16:37:49,212 - INFO - Exchanging refresh token for access token...
+2025-06-09 16:37:49,506 - INFO - Authenticated successfully. Processing new projects...
+2025-06-09 16:37:56,099 - INFO - New project created: Meteme Barrel Winery -> 25095 - Meteme Barrel Winery
+2025-06-09 16:37:56,100 - INFO - Script finished successfully.
+2025-06-09 16:38:15,789 - INFO - Successfully initialized. Starting to search for new projects...
+2025-06-09 16:38:15,791 - INFO - 0 new projects found: []
+2025-06-09 16:38:15,792 - INFO - No new projects found. Exiting.
+2025-06-09 16:39:00,422 - INFO - Successfully initialized. Starting to search for new projects...
+2025-06-09 16:39:00,424 - INFO - 1 new projects found: ['Pleasant Valley ES Inc. 2']
+2025-06-09 16:39:00,425 - INFO - Exchanging refresh token for access token...
+2025-06-09 16:39:00,726 - INFO - Authenticated successfully. Processing new projects...
+2025-06-09 16:40:02,693 - INFO - New project created: Pleasant Valley ES Inc. 2 -> 25101 - Pleasant Valley ES Inc. 2
+2025-06-09 16:40:02,693 - INFO - Script finished successfully.
