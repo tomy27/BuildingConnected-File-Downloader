@@ -1,4 +1,4 @@
-## Autodeks Docs File Downloader
+## Autodesk Docs File Downloader
 
 The script automatically prepares, renames project folders and copies the corresponding project files from the Autodesk Docs synced folder. The script checks the available projects and creates and copies only the new ones to the projects folder.
 
@@ -53,3 +53,4 @@ If you would like to run the script with python, then instead of running the exe
 ## Comments
 
 - The database stores the timestamps in UTC.
+
